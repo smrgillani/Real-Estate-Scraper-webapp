@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.bgcolor {
+    background-color: #dee0e2 !important;
+}
+
+.navbar-nav li a{
+	color: black !important;
+}
+
+.navbar-nav li{
+	padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+#flaggedlist{
+	margin:40px 0px 0px 0px;
+}
+
+
+.products{
+	display: flex;
+	border: 1px solid #c7c7c7c7;
+	position: relative;
+}
+
+.productImage{
+	padding: 5px
+}
+
+.productImage img{
+	width: 100%;
+	max-width: 160px;
+}
+
+.productDetail{
+	padding: 10px;
+	width: 60%;
+}
+
+.Moredetail{
+	display: flex;
+	padding: 3px;
+	border: 1px solid #c7c7c7;
+}
+
+.detail1{
+	flex: 1;
+}
+
+.detail2{
+	flex: 1;
+}
+
+.detail1 div{
+	font-size: 13px;
+}
+
+.detail2 div{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.badge{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: black;
+	text-align: center;
+	border-radius:0 !important;
+	padding: 5px 5px 5px 6px !important;
+
+}
+
+.badge i{
+	color: white;
+}
+
+.productDetail p{
+	margin: 0;
+	padding: 0px 0px 6px 0px;
+}
+
+.modalImage img{
+	width: 100%;
+}
+
+.modaldetail h3{
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.modaldetail p{
+	font-size: 13px;
+}
+
+.icons1{
+	display: flex;
+}
+
+.icon3{
+	flex: 1;
+}
+
+.icon3 div{
+	
+	margin: 5px 0px;
+}
+
+.icon4 div{
+	
+	margin: 5px 0px;
+}
+
+.icon4{
+	flex: 1;
+}
+
+.modal-content{
+	top: 200px;
+
+}

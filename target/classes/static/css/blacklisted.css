@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.bgcolor {
+    background-color: #dee0e2 !important;
+}
+
+.navbar-nav li a{
+	color: black !important;
+}
+
+.navbar-nav li{
+	padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+#blacklisted{
+	margin: 40px 0px 0px 0px;
+}
+
+#blacklisted .maindiv{
+	width: 50%;
+}
+
+#blacklisted .heading{
+	border: 1px solid;
+	text-align: center;
+	padding: 10px;
+}
+
+#blacklisted .detail{
+	display: flex;
+	border: 1px solid;
+	border-top: none;
+	height: 200px;
+	/* align-items: baseline; */
+	padding: 15px 0px 0px 10px;
+}
+
+#blacklisted .text{
+	flex: 1;
+}
+
+#blacklisted .selectbox{
+	flex: 2;
+}
+
+#blacklisted .selectbox select{
+	width: 200px;
+}
+
+#blacklisted .btn-secondary {
+    color: #000 !important;
+    background-color: #ffffff !important;
+    border-color: #6c757d !important;
+}
+
+#blacklisted .selectbox button{
+	margin: 0px 0px 0px 15px;
+}
+
+
+
+
+
+
+#blacklisted  .table3 table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#blacklisted  .table3 td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#blacklisted  .table3 a{
+  text-decoration: underline;
+  color: black;
+
+}
+
+#blacklisted  .table3 tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#blacklisted  .icons3{
+	display: flex;
+}
+
+#blacklisted  .icons1 a{
+	text-decoration: none;
+	color: black;
+	font-size: 19px;
+}
+
+#blacklisted  .icons1{
+	padding: 0px 5px 0px 5px;
+}
+
+.text{
+	display: flex;
+}
+
+ .p1{
+	flex: 1;
+}
+.p2{
+	flex: 1;
+	text-align: right;
+}
+
+.p1 p{
+	text-decoration: underline;
+}
+
+.p2 p{
+	text-decoration: underline;
+}
+
+.p1 p a{
+	text-decoration: none;
+	color: black;
+}
+
+.p2 p a{
+	text-decoration: none;
+	color: black;
+}

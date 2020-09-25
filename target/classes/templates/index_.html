@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Swiss real estate marketplace</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+      
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/form.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+   <body>
+      <section id="navebar">
+         <nav class="navbar navbar-expand-lg navbar-light bgcolor">
+            <div class="container">
+               <a class="navbar-brand" href="./">Logo</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="./">Dashboard <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="./exportlists">Export List</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Flagged List</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Black Listed</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Account Setting</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </section>
+      <section id="banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <form class="form">
+                     <select name="cars" class="select1">
+                        <option value="volvo">Ms Region</option>
+                     </select>
+                     <select name="websites" class="select1">
+                        <option selected="selected" >Site....</option>
+                        <option value="FormForHGSite">www.homegate.ch</option>
+                        <option value="FormForISSite">www.immoscout24.ch</option>
+                     </select>
+                  </form>
+               </div>
+               <div class="col-lg-6">
+                  <div class="form2">
+                     <div class="text">
+                        Rentent
+                     </div>
+                     <div class="formbox">
+                        <input type="text" class="box1">
+                     </div>
+                     <div class="formpercentage">70%</div>
+                  </div>
+                  <div class="form2">
+                     <div class="text">
+                        For Sale
+                     </div>
+                     <div class="formbox">
+                        <input type="text" class="box1">
+                     </div>
+                     <div class="formpercentage">40%</div>
+                  </div>
+                  <div class="form2">
+                     <div class="text">
+                        Commercial
+                     </div>
+                     <div class="formbox">
+                        <input type="text" class="box1">
+                     </div>
+                     <div class="formpercentage">30%</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+                  <div class="container-fluid">
+                     <div id="main-search-form-wrapper" class="main-search-form-wrapper collapsible-content main-search--open">
+ 
+                     </div>
+
+                  </div>
+      <section id="tabs">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                     <li class="nav-item">
+                        <a class="nav-link active" id="results-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-university" aria-hidden="true"></i> <span> (0 Results) </span> </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link"><input type="checkbox" name=""> Select All</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link">Export Lists</a>
+                     </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <section id="products">
+                           
+                        </section>
+                     </div>
+                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+<div id="FormForHGSite" style="display: none;">
+<div class="page-slogan">
+                           <h1>Switzerland's largest real estate portal </h1>
+                           <span class="page-slogan--properties"><span>covering all the </span> properties sites from HomeGate</span>
+                        </div>
+                     
+                           <div class="main-search-form-basic">
+                              <div class="main-search-col main-search-col--choosetype-keyword">
+                                 <div class="inner">
+                                    <div class="main-search-col main-search-col--choosetype main-search-form-item">
+                                       <div class="main-search-col-label">Search in</div>
+                                       <span class="custom-select-wrapper">
+                                       </span>
+                                       <div class="btn-group btn-group--separated btn-group--contrast-dark" data-toggle="buttons" >
+                                          <label class="btn active rent-buy-button">
+                                          <input type="radio" name="hg_pType" checked="checked" onchange="propertySType(this.value)" value="rent">Rent
+                                          </label>
+                                          <label class="btn rent-buy-button-">
+                                          <input type="radio" name="hg_pType" onchange="propertySType(this.value)" value="buy">Buy
+                                          </label>
+                                       </div>
+                                    </div>
+                                    <div id="search-criteria-wrapper" class="main-search-col main-search-col--keyword main-search-form-item">
+                                       <label for="search-criteria-ghost">Search where</label>
+                                       <div class="main-search-labeling">
+                                          <input type="text" class="input-ghost" name="hg_cityNames" placeholder="Cities, regions, ZIP, country">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="main-search-col main-search-col--properties">
+                                 <div class="inner">
+                                    <div class="main-search-col main-search-col--category main-search-form-item">
+                                       <label for="category">Category</label>
+                                       <span class="custom-select-wrapper">
+                                          <select data-gtm-id="search-searchpanel-select-1416325534901" id="category" name="hg_linkCategory" class="hasCustomSelect" style="-webkit-appearance: menulist-button; position: absolute; opacity: 0; height: 34px; font-size: 14px; width: 164px;">
+                                                   <option value="real-estate">Apartment &amp; house</option>
+                                                   <option value="apartment">Apartment</option>
+                                                   <option value="house">House, chalet, rustico</option>
+                                                   <option value="furnished-dwelling">Furnished dwelling</option>
+                                                   <option value="parking-place-garage">Parking space, garage</option>
+                                                   <option value="office">Office</option>
+                                                   <option value="industrial-object">Commercial &amp; industry</option>
+                                                   <option value="storage-room">Storage room</option>
+                                          </select>
+                                          <span class="custom-select" style="display: inline-block;"><span class="custom-selectInner" style="width: 120px; display: inline-block;">Apartment &amp; house</span></span>
+                                       </span>
+                                    </div>
+                                    <div class="main-search-col main-search-col--price main-search-form-item" id="id1f">
+                                       <div class="form-label">Price</div>
+                                       <div class="input-select">
+                                          <span id="price-range" class="input-select-indicator" tabindex="0" style="">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="price-min">from</label>
+                                                <input type="text" pattern="\d*" data-formatted-integer="true" id="price-min" data-gtm-id="search-searchpanel-input-text-1414597193338" value="" name="hg_priceRangemin">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="price-max">to</label>
+                                                <input type="text" pattern="\d*" data-formatted-integer="true" id="price-max" data-gtm-id="search-searchpanel-input-text-1414597193341" value="" name="hg_priceRangemax">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col main-search-col--rooms main-search-form-item" id="id20">
+                                       <div class="form-label">Rooms</div>
+                                       <div class="input-select">
+                                          <span id="room-range" class="input-select-indicator" tabindex="0" style="">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="rooms-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193342" id="rooms-min" name="hg_roomRangemin" type="text" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="rooms-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193344" id="rooms-max" name="hg_roomRangemax" type="text" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div id="id21" style="display:none"></div>
+
+                                 </div>
+                              </div>
+                              <div id="main-search-actions" class="main-search-col main-search-col--actions main-search-form-item">
+                                 <button data-gtm-id="search-searchpanel-button-submit-1414597193391" type="submit" class="main-search-submit btn btn-primary" name="searchButtonUpper" onclick="getDataFrmSrvc('hgrequest')" id="id22">
+                                 <span>Search</span>
+                                 </button>
+                              </div>
+                           </div>
+                           <!-- /upper -->
+                           <!-- middle -->
+                           <div id="main-search-form-extended" class="main-search-form-extended collapsible-content">
+                              <div class="main-search-form-extended--filters">
+                                 <div class="inner">
+                                    <div class="main-search-col" id="id23">
+                                       <div class="main-search-form-item">
+                                          <label for="periphery">Radius</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">none</option>
+                                                <option value="5000">5 km</option>
+                                                <option value="10000">10 km</option>
+                                                <option value="15000">15 km</option>
+                                             </select>
+                                            
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id24">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Type</div>
+                                          <span class="input-select-indicator" tabindex="0" id="id25">all</span>
+                                          <div class="input-select-dropdown input-select-dropdown--wide main-search-form-item--object-type">
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:0:objectType" id="id1"><span>Apartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:1:objectType" id="id2"><span>Duplex</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:2:objectType" id="id3"><span>Attic flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:3:objectType" id="id4"><span>Roof flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:4:objectType" id="id5"><span>Studio</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:5:objectType" id="id6"><span>Single room</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:6:objectType" id="id7"><span>Terrace flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:7:objectType" id="id8"><span>Bachelor flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:8:objectType" id="id9"><span>Loft</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:9:objectType" id="ida"><span>Mansard</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:10:objectType" id="idb"><span>Single house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:11:objectType" id="idc"><span>Row house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:12:objectType" id="idd"><span>Bifamiliar house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:13:objectType" id="ide"><span>Terrace house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:14:objectType" id="idf"><span>Villa</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:15:objectType" id="id10"><span>Farm house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:16:objectType" id="id11"><span>Cave house / earthen house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:17:objectType" id="id12"><span>Castle</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:18:objectType" id="id13"><span>Granny flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:19:objectType" id="id14"><span>Chalet</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:20:objectType" id="id15"><span>Rustic house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:21:objectType" id="id16"><span>Hobby room</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:22:objectType" id="id17"><span>Cellar compartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:23:objectType" id="id18"><span>Attic compartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:24:objectType" id="id19"><span>Allottment garden</span></label></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id26">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Living space in m<sup>2</sup></div>
+                                          <span id="surfaceLiving-range" class="input-select-indicator" tabindex="0">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="area-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193373" id="area-min" name="surfaceLivingRangeField:minField" type="text" pattern="\d*" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="area-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193375" id="area-max" name="surfaceLivingRangeField:maxField" type="text" pattern="\d*" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div id="id27" style="display:none"></div>
+                                    <div id="id28" style="display:none"></div>
+                                    <div id="id29" style="display:none"></div>
+                                    <div class="main-search-col" id="id2a">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Year built</div>
+                                          <span id="constructionYear-range" class="input-select-indicator" tabindex="0">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="year-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193382" id="year-min" name="yearBuiltRangeField:minField" type="text" pattern="\d*" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="year-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193384" id="year-max" name="yearBuiltRangeField:maxField" type="text" pattern="\d*" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id2b">
+                                       <div class="main-search-form-item">
+                                          <label for="floor">Floor</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">all</option>
+                                                <option value="GROUND_FLOOR">on GF</option>
+                                                <option value="ABOVE_GROUND_FLOOR">not on GF</option>
+                                             </select>
+                                            
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id2c">
+                                       <div class="main-search-form-item">
+                                          <label for="availability">Available</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">all</option>
+                                                <option value="IMMEDIATELY">immediately</option>
+                                                <option value="IN_ONE_MONTH">in 1 month</option>
+                                                <option value="IN_TWO_MONTHS">in 2 month</option>
+                                                <option value="IN_THREE_MONTHS">in 3 month</option>
+                                                <option value="IN_FOUR_MONTHS">in 4 month</option>
+                                                <option value="IN_FIVE_MONTHS">in 5 month</option>
+                                                <option value="IN_SIX_MONTHS">in 6 month</option>
+                                                <option value="IN_SEVEN_MONTHS">in 7 month</option>
+                                                <option value="IN_EIGHT_MONTHS">in 8 month</option>
+                                                <option value="IN_NINE_MONTHS">in 9 month</option>
+                                                <option value="IN_TEN_MONTHS">in 10 month</option>
+                                                <option value="IN_ELEVEN_MONTHS">in 11 month</option>
+                                                <option value="IN_TWELVE_MONTHS">in 12 month</option>
+                                             </select>
+                                           
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- /filter -->
+                              <div class="main-search-form-extended--facility" id="id1a">
+                                 <div class="main-search-form-item main-search-form-item--facility">
+                                    <div class="form-label">
+                                       Features
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193385" id="id2d" value="check2">
+                                       Balcony / Patio
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193386" id="id2e" value="check3">
+                                       Pets allowed
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193387" id="id2f" value="check4">
+                                       Minergie
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193388" id="id30" value="check5">
+                                       Elevator
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" id="facility-wheelchair" data-gtm-id="search-searchpanel-input-checkbox-1414597193389" value="check6">
+                                       Has wheelchair access
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193390" id="id31" value="check7">
+                                       New building
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div id="main-search-filter-actions" class="main-search-form-item main-search-filter-actions">
+                                 <button data-gtm-id="search-searchpanel-button-submit-1414597193392" type="submit" class="main-search-submit btn btn-primary" name="searchButtonMiddle" id="id32">
+                                 <span>Search</span>
+                                 </button>
+                              </div>
+                              <div class="col-xs-12">
+                                 <div class="main-search-reset">
+                                    <a data-gtm-id="search-searchpanel-a-1414597193328" href="javascript:;" id="id1b">Reset search</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- /middle -->
+                           <!-- lower -->
+                           <div class="main-search-form-switch">
+                              <div class="col-xs-12">
+                                 <a class="main-search-form-switch-trigger collapsible-trigger" >
+                                 <span id="main-search-form-switch-label" class="main-search-form-switch-label">Advanced Search </span>
+                                 <i class="main-search-form-switch-icon" id="main-search-form-switch-icon"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           <!-- /lower -->
+
+</div>
+
+
+<div id="FormForISSite" style="display: none;">
+<div class="page-slogan">
+                           <h1>Switzerland's largest real estate portal </h1>
+                           <span class="page-slogan--properties"><span>covering all the </span> properties sites from ImmoScout</span>
+                        </div>
+                     
+                           <div class="main-search-form-basic">
+                              <div class="main-search-col main-search-col--choosetype-keyword">
+                                 <div class="inner">
+                                    <div class="main-search-col main-search-col--choosetype main-search-form-item">
+                                       <div class="main-search-col-label">Search in</div>
+                                       <span class="custom-select-wrapper">
+                                       </span>
+                                       <div class="btn-group btn-group--separated btn-group--contrast-dark" data-toggle="buttons" >
+                                          <label class="btn active rent-buy-button">
+                                          <input type="radio" name="hg_pType" checked="checked" onchange="propertySType(this.value)" value="1">Rent
+                                          </label>
+                                          <label class="btn rent-buy-button-">
+                                          <input type="radio" name="hg_pType" onchange="propertySType(this.value)" value="2">Buy
+                                          </label>
+                                       </div>
+                                    </div>
+                                    <div id="search-criteria-wrapper" class="main-search-col main-search-col--keyword main-search-form-item">
+                                       <label for="search-criteria-ghost">Search where</label>
+                                       <div class="main-search-labeling">
+                                          <input type="text" class="input-ghost" name="hg_cityNames" placeholder="Cities, regions, ZIP, country">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="main-search-col main-search-col--properties">
+                                 <div class="inner">
+                                    <div class="main-search-col main-search-col--category main-search-form-item">
+                                       <label for="category">Category</label>
+                                       <span class="custom-select-wrapper">
+                                          <select data-gtm-id="search-searchpanel-select-1416325534901" id="category" name="hg_linkCategory" class="hasCustomSelect" style="-webkit-appearance: menulist-button; position: absolute; opacity: 0; height: 34px; font-size: 14px; width: 164px;">
+                                                   <option value="1">Flat, House</option>
+                                                   <option value="2">Flat</option><option value="3">House</option>
+                                                   <option value="135">New building</option><option value="4">Plot</option>
+                                                   <option value="5">Parking space</option><option value="9">Multi-family residential</option>
+                                                   <option value="7">Office, Commerce, Industry</option><option value="10">Agriculture</option>
+                                                   <option value="8">Other objects</option>
+                                          </select>
+                                          <span class="custom-select" style="display: inline-block;"><span class="custom-selectInner" style="width: 120px; display: inline-block;">Apartment &amp; house</span></span>
+                                       </span>
+                                    </div>
+                                    <div class="main-search-col main-search-col--price main-search-form-item" id="id1f">
+                                       <div class="form-label">Price</div>
+                                       <div class="input-select">
+                                          <span id="price-range" class="input-select-indicator" tabindex="0" style="">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="price-min">from</label>
+                                                <input type="text" pattern="\d*" data-formatted-integer="true" id="price-min" data-gtm-id="search-searchpanel-input-text-1414597193338" value="" name="hg_priceRangemin">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="price-max">to</label>
+                                                <input type="text" pattern="\d*" data-formatted-integer="true" id="price-max" data-gtm-id="search-searchpanel-input-text-1414597193341" value="" name="hg_priceRangemax">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col main-search-col--rooms main-search-form-item" id="id20">
+                                       <div class="form-label">Rooms</div>
+                                       <div class="input-select">
+                                          <span id="room-range" class="input-select-indicator" tabindex="0" style="">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="rooms-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193342" id="rooms-min" name="hg_roomRangemin" type="text" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="rooms-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193344" id="rooms-max" name="hg_roomRangemax" type="text" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div id="id21" style="display:none"></div>
+
+                                 </div>
+                              </div>
+                              <div id="main-search-actions" class="main-search-col main-search-col--actions main-search-form-item">
+                                 <button data-gtm-id="search-searchpanel-button-submit-1414597193391" type="submit" class="main-search-submit btn btn-primary" name="searchButtonUpper" onclick="getDataFrmSrvc('isrequest')" id="id22">
+                                 <span>Search</span>
+                                 </button>
+                              </div>
+                           </div>
+                           <!-- /upper -->
+                           <!-- middle -->
+                           <div id="main-search-form-extended" class="main-search-form-extended collapsible-content">
+                              <div class="main-search-form-extended--filters">
+                                 <div class="inner">
+                                    <div class="main-search-col" id="id23">
+                                       <div class="main-search-form-item">
+                                          <label for="periphery">Radius</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">none</option>
+                                                <option value="5000">5 km</option>
+                                                <option value="10000">10 km</option>
+                                                <option value="15000">15 km</option>
+                                             </select>
+                                            
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id24">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Type</div>
+                                          <span class="input-select-indicator" tabindex="0" id="id25">all</span>
+                                          <div class="input-select-dropdown input-select-dropdown--wide main-search-form-item--object-type">
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:0:objectType" id="id1"><span>Apartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:1:objectType" id="id2"><span>Duplex</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:2:objectType" id="id3"><span>Attic flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:3:objectType" id="id4"><span>Roof flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:4:objectType" id="id5"><span>Studio</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:5:objectType" id="id6"><span>Single room</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:6:objectType" id="id7"><span>Terrace flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:7:objectType" id="id8"><span>Bachelor flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:8:objectType" id="id9"><span>Loft</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:9:objectType" id="ida"><span>Mansard</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:10:objectType" id="idb"><span>Single house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:11:objectType" id="idc"><span>Row house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:12:objectType" id="idd"><span>Bifamiliar house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:13:objectType" id="ide"><span>Terrace house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:14:objectType" id="idf"><span>Villa</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:15:objectType" id="id10"><span>Farm house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:16:objectType" id="id11"><span>Cave house / earthen house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:17:objectType" id="id12"><span>Castle</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:18:objectType" id="id13"><span>Granny flat</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:19:objectType" id="id14"><span>Chalet</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:20:objectType" id="id15"><span>Rustic house</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:21:objectType" id="id16"><span>Hobby room</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:22:objectType" id="id17"><span>Cellar compartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:23:objectType" id="id18"><span>Attic compartment</span></label></div>
+                                             <div class="input-select-dropdown-item input-select-dropdown-item--checkbox"><label><input data-gtm-id="search-searchpanel-input-checkbox-1414597193348" type="checkbox" name="objectTypeField:objectTypes:24:objectType" id="id19"><span>Allottment garden</span></label></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id26">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Living space in m<sup>2</sup></div>
+                                          <span id="surfaceLiving-range" class="input-select-indicator" tabindex="0">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="area-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193373" id="area-min" name="surfaceLivingRangeField:minField" type="text" pattern="\d*" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="area-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193375" id="area-max" name="surfaceLivingRangeField:maxField" type="text" pattern="\d*" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div id="id27" style="display:none"></div>
+                                    <div id="id28" style="display:none"></div>
+                                    <div id="id29" style="display:none"></div>
+                                    <div class="main-search-col" id="id2a">
+                                       <div class="main-search-form-item input-select">
+                                          <div class="form-label">Year built</div>
+                                          <span id="constructionYear-range" class="input-select-indicator" tabindex="0">all</span>
+                                          <div class="input-select-dropdown">
+                                             <div class="input-select-dropdown-item">
+                                                <label for="year-min">from</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193382" id="year-min" name="yearBuiltRangeField:minField" type="text" pattern="\d*" value="">
+                                             </div>
+                                             <div class="input-select-dropdown-item">
+                                                <label for="year-max">to</label>
+                                                <input data-gtm-id="search-searchpanel-input-text-1414597193384" id="year-max" name="yearBuiltRangeField:maxField" type="text" pattern="\d*" value="">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id2b">
+                                       <div class="main-search-form-item">
+                                          <label for="floor">Floor</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">all</option>
+                                                <option value="GROUND_FLOOR">on GF</option>
+                                                <option value="ABOVE_GROUND_FLOOR">not on GF</option>
+                                             </select>
+                                            
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="main-search-col" id="id2c">
+                                       <div class="main-search-form-item">
+                                          <label for="availability">Available</label>
+                                          <span class="custom-select-wrapper">
+                                             <select>
+                                                <option selected="selected" value="">all</option>
+                                                <option value="IMMEDIATELY">immediately</option>
+                                                <option value="IN_ONE_MONTH">in 1 month</option>
+                                                <option value="IN_TWO_MONTHS">in 2 month</option>
+                                                <option value="IN_THREE_MONTHS">in 3 month</option>
+                                                <option value="IN_FOUR_MONTHS">in 4 month</option>
+                                                <option value="IN_FIVE_MONTHS">in 5 month</option>
+                                                <option value="IN_SIX_MONTHS">in 6 month</option>
+                                                <option value="IN_SEVEN_MONTHS">in 7 month</option>
+                                                <option value="IN_EIGHT_MONTHS">in 8 month</option>
+                                                <option value="IN_NINE_MONTHS">in 9 month</option>
+                                                <option value="IN_TEN_MONTHS">in 10 month</option>
+                                                <option value="IN_ELEVEN_MONTHS">in 11 month</option>
+                                                <option value="IN_TWELVE_MONTHS">in 12 month</option>
+                                             </select>
+                                           
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- /filter -->
+                              <div class="main-search-form-extended--facility" id="id1a">
+                                 <div class="main-search-form-item main-search-form-item--facility">
+                                    <div class="form-label">
+                                       Features
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193385" id="id2d" value="check2">
+                                       Balcony / Patio
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193386" id="id2e" value="check3">
+                                       Pets allowed
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193387" id="id2f" value="check4">
+                                       Minergie
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193388" id="id30" value="check5">
+                                       Elevator
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" id="facility-wheelchair" data-gtm-id="search-searchpanel-input-checkbox-1414597193389" value="check6">
+                                       Has wheelchair access
+                                       </label>
+                                    </div>
+                                    <div class="checkbox"><label>
+                                       <input type="checkbox" name="facilityCheckBoxes" data-gtm-id="search-searchpanel-input-checkbox-1414597193390" id="id31" value="check7">
+                                       New building
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div id="main-search-filter-actions" class="main-search-form-item main-search-filter-actions">
+                                 <button data-gtm-id="search-searchpanel-button-submit-1414597193392" type="submit" class="main-search-submit btn btn-primary" name="searchButtonMiddle" id="id32">
+                                 <span>Search</span>
+                                 </button>
+                              </div>
+                              <div class="col-xs-12">
+                                 <div class="main-search-reset">
+                                    <a data-gtm-id="search-searchpanel-a-1414597193328" href="javascript:;" id="id1b">Reset search</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- /middle -->
+                           <!-- lower -->
+                           <div class="main-search-form-switch">
+                              <div class="col-xs-12">
+                                 <a class="main-search-form-switch-trigger collapsible-trigger" >
+                                 <span id="main-search-form-switch-label" class="main-search-form-switch-label">Advanced Search </span>
+                                 <i class="main-search-form-switch-icon" id="main-search-form-switch-icon"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           <!-- /lower -->
+
+</div>
+
+
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/my.js"></script>
+
+      <script type="text/javascript">
+
+         function propertySType(val_) {
+
+            var buy_select_list = '<option selected="selected" value="apartment">Apartment</option><option value="house">House, chalet, rustico</option><option value="real-estate">Apartment &amp; house</option><option value="plot">Building plot</option><option value="multi-family-house">Multi-family house</option><option value="commercial-and-residential-building">Commercial and residential building</option><option value="parking-place-garage">Parking space, garage</option><option value="commercial">Commercial, Office, Storage room</option>';
+
+            var rent_select_list = '<option selected="selected" value="real-estate">Apartment &amp; house</option><option value="apartment">Apartment</option><option value="house">House, chalet, rustico</option><option value="furnished-dwelling">Furnished dwelling</option><option value="parking-place-garage">Parking space, garage</option><option value="office">Office</option><option value="industrial-object">Commercial &amp; industry</option><option value="storage-room">Storage room</option>';
+
+            if(val_ === 'rent'){
+               $('select[name=hg_linkCategory]').html(rent_select_list);
+            }
+
+            if(val_ === 'buy'){
+               $('select[name=hg_linkCategory]').html(buy_select_list);
+            }
+            
+         };
+
+         function getDataFrmSrvc(val){
+              var searchIn = $("input[name=hg_pType]:checked").val();
+              var citiesIn = $("input[name=hg_cityNames]").val();
+              var categoryIn = $("select[name=hg_linkCategory] option:selected").val();
+              var pricefromIn = $("input[name=hg_priceRangemin]").val();
+              var pricetoIn = $("input[name=hg_priceRangemax]").val();
+              var roomfromIn = $("input[name=hg_roomRangemin]").val();
+              var roomtoIn = $("input[name=hg_roomRangemax]").val();
+
+              if(searchIn != null && citiesIn != null && categoryIn != null){
+               $("#products").html('<img src="image/loading.gif" class="center" />');
+               $.getJSON(window.location.href + "/" + val + "?searchIn=" + searchIn + "&category=" + categoryIn + "&cities=" + citiesIn , function(result){
+                  var data_container_ = '';
+                      var i_i = 0;
+                      $.each(result, function(index, element){
+                        i_i++;
+                      data_container_ = data_container_ + '<div class="col-lg-12 mt-3"><div class="products"><a href="#" data-toggle="modal" data-target="#exampleModal' + index +'" ><div class="productImage"><img src="image/p2.jpg"></div></a><div class="productDetail"><p><strong>' + element.titleOfAdd +'</strong>'+ element.cIty +',' + element.msRegion + '</p><div class="Moredetail"><div class="detail1"><div><i class="fa fa-home" aria-hidden="true"></i> Category :' + element.catOfProperty + '</div><div><i class="fa fa-usd" aria-hidden="true"></i> Sell Price : ' + element.sellPrice + '</div><div><i class="fa fa-usd" aria-hidden="true"></i>Gross Price : ' + element.grossPrice + '</div></div><div class="detail2"><div><i class="fa fa-thumb-tack" aria-hidden="true"></i> Type : ' + element.objectType + ' </div><div><i class="fa fa-usd" aria-hidden="true"> Net Price : </i> ' + element.netPrice + '</div><div><i class="fa fa-phone" aria-hidden="true"> Phone</i> ' + element.phoneOfSeller + ',' + element.contactNumber + '</div></div></div></div><div class="badge"><input type="checkbox"></div></div><div class="modal fade" id="exampleModal' + index +'" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog modal-lg" role="document"><div class="modal-content"><div class="modal-header"></div><div class="modal-body"><div class="row"><div class="col-lg-6"><div class="modalImage"><img src="image/p2.jpg"></div></div><div class="col-lg-6"><div class="modaldetail"><h3>' + element.titleOfAdd +'</h3><p><!---para here---></p><div><p><strong>Published by :</strong> '+ element.contactName +'</p></div><div class="icons1"><div class="icon3"><div><i class="fa fa-bed" aria-hidden="true"> Rooms </i> ' + element.numberOfRooms + ' </div><div><i class="fa fa-phone" aria-hidden="true"></i> ' + element.phoneOfSeller + ',' + element.contactNumber + '</div><div><i class="fa fa-snowflake-o" aria-hidden="true"></i> Type : ' + element.objectType + '</div>        </div><div class="icon4"><div><i class="fa fa-address-book" aria-hidden="true"> Address Of Seller : </i> ' + element.streetNumberOfSeller + ' , ' + element.cityOfSeller  + ' </div><div><i class="fa fa-link" aria-hidden="true"></i> Link Of Ad : <a href="' + element.urlOfAd + '"> Click Here </a></div>     </div></div><div><i class="fa fa-link" aria-hidden="true"></i> Property Address : ' + element.streetNumber + '</div></div></div></div></div><div class="modal-footer"></div></div></div></div></div><div style="clear:both;"></div>';
+                      });
+                     $("#products").html(data_container_);
+                     $("#results-tab > span").html(' (' + i_i + ' Results)');
+                });
+
+               }else{
+                  alert("set your search type , cities and Category !");
+               }
+         }
+
+
+         $("select[name=websites]").change(function () {
+             var str = $("select[name=websites] option:selected").val();
+             $("#main-search-form-wrapper").html($("#" + str).html());
+         });
+      </script>
+
+   </body>
+</html>
+
+

@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.bgcolor {
+    background-color: #dee0e2 !important;
+}
+
+.navbar-nav li a{
+	color: black !important;
+}
+
+.navbar-nav li{
+	padding: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+#exportContant{
+	margin-top: 30px;
+}
+
+.exportHeading h1{
+	font-size: 30px;
+	margin: 0;
+	padding: 0px 0px 5px 0px;
+}
+
+.exportHeading p{
+	font-size: 17px;
+	margin: 0;
+	padding: 10px 0px 0px 0px;
+}
+
+.notice{
+	border: 1px solid #d0d0d0;
+	border-left: 10px solid #d0d0d0;
+	width: 70%;
+}
+
+.notice p{
+	margin: 0;
+	padding: 10px 10px;
+}
+
+.fileformate{
+	display: flex;
+	align-items: baseline;
+}
+
+.fileformate .heading{
+	flex: 1;
+}
+
+.fileformate .radio{
+	flex: 5;
+	font-size: 20px;
+}
+
+.fileformate .heading h3{
+	margin: 0;
+}
+
+
+.selectFields{
+	display: flex;
+	align-items: baseline;
+}
+
+.selectHeading{
+	flex: 1;
+}
+
+.selectCheckbox{
+	flex: 4;
+	font-size: 17px;
+	font-weight: 500;
+	color: #313131;
+}
+
+.selectHeading h3{
+	margin: 0;
+}
+
+.selectCheckbox input {
+	margin-right: 10px;
+}
+
+
+.lastInput{
+	margin: 50px 0px 0px 0px;
+}
+
+.lastInput input{
+	margin-right: 10px;
+}
+
+.lastInput button{
+	margin: 0px 15px;
+}
+
+.btn-secondary {
+    color: #000 !important;
+    background-color: #ffffff !important;
+    border-color: #6c757d !important;
+}
